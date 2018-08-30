@@ -3,10 +3,10 @@
         <router-link
         tag="div"
         to="/"
-        class="header-abs iconfont"
+        class="header-abs"
         v-show="showAbs"
         >
-           <div class="iconfont header-abs-back">&#xe624;</div>
+        <div class="iconfont header-abs-back">&#xe624;</div>
         </router-link>
         <div 
         class="header-fixed"
@@ -14,8 +14,8 @@
         :style="opacityStyle"
         >
             <router-link to="/">
-            <div class="iconfont header-fixed-back">&#xe624;</div>
-        </router-link>
+                <div class="iconfont header-fixed-back">&#xe624;</div>
+            </router-link>
             景点详情
         </div>
     </div>
